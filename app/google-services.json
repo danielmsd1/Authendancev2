@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "977675108379",
+    "project_id": "authendance-2f6bc",
+    "storage_bucket": "authendance-2f6bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977675108379:android:d779d00ed4ea13ea0db8be",
+        "android_client_info": {
+          "package_name": "com.simiyu.authendancev2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977675108379-o5biisvt321hm9ofh3ie2jj2trsiovvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simiyu.authendancev2",
+            "certificate_hash": "0c0a5eb9c80192b848a0056ac445680c3fa5881c"
+          }
+        },
+        {
+          "client_id": "977675108379-q3b840tljhghlr8e1bso47tudffcvnpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYR66y1pq1K60lKE2MGE8psc6sOi-OTRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977675108379-q3b840tljhghlr8e1bso47tudffcvnpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
