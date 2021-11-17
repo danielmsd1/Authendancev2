@@ -32,6 +32,8 @@
         <activity android:name=".AttendanceScreen"/>
         <activity android:name=".ModuleSelect"/>
         <activity android:name=".StudentModules"/>
+        <activity android:name=".CodeScreen"/>
+        <activity android:name=".CodeScanner"/>
 
 
     </application>
