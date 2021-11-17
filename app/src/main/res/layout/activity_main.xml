@@ -155,16 +155,4 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
-
-    <![CDATA[
-    =======
-    < android:layout_width = "match_parent" />
-
-    <<<<< HEAD
-<<<<<< HEAD
-    >>>>>>> 1374f7e48022e0b2b1054949421c379ea27a04b6
-
-]]>
-=======
->>>>>>> 217c663837c3930affd864155a84128cd359c5be
 </androidx.constraintlayout.widget.ConstraintLayout>

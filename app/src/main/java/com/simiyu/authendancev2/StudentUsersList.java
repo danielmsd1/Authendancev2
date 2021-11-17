@@ -56,6 +56,7 @@ public class StudentUsersList extends AppCompatActivity {
             public void onItemClick(DocumentSnapshot documentSnapshot, int position) {
 
                 if (isConnectedtoInternet(StudentUsersList.this)) {
+                    //todo: check id
                     String studentID = documentSnapshot.getString("student_id");
 
                     Intent intent = new Intent(StudentUsersList.this, StudentAttendanceScreen.class);

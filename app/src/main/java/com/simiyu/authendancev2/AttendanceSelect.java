@@ -76,7 +76,8 @@ public class AttendanceSelect extends AppCompatActivity {
 
                             if(isConnectedtoInternet(AttendanceSelect.this)){
 
-                                final String spinnerValue = attendanceSpinner.getSelectedItem().toString();
+                                //adding the id
+                                final String spinnerValue = "ttW6kjbYkjixYtOa2tDn";
 
                                 //Determines database path for the record of the chosen date
                                 DocumentReference dateRef = db.collection("School")
@@ -141,6 +142,8 @@ public class AttendanceSelect extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     for (QueryDocumentSnapshot queryDocumentSnapshot : Objects.requireNonNull(task.getResult())) {
                         String moduleName = queryDocumentSnapshot.getId();
+                        //todo: Remove this.
+                        System.out.println("The module name found is: "+moduleName);
                         modulesList.add(moduleName);
                     }
                     adapter.notifyDataSetChanged();

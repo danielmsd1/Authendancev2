@@ -47,6 +47,7 @@ public class TeacherModules extends AppCompatActivity {
                 .document(uid)
                 .collection("Modules");
 
+
         Query query = moduleRef.orderBy("module", Query.Direction.DESCENDING);
         query.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override

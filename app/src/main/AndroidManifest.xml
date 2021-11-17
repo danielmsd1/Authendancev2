@@ -16,6 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".StudentActivity"/>
+        <activity android:name=".TeacherActivity"/>
+        <activity android:name=".AdminActivity"/>
+        <activity android:name=".StudentUsersList"/>
+        <activity android:name=".StudentAttendanceScreen"/>
+        <activity android:name=".PersonalAttendance"/>
+        <activity android:name=".TeacherUsersList"/>
+        <activity android:name=".OverallAttendance"/>
+        <activity android:name=".SettingsActivity"/>
+        <activity android:name=".PasswordReset"/>
+        <activity android:name=".GenerateCode"/>
+        <activity android:name=".TeacherModules"/>
+        <activity android:name=".AttendanceSelect"/>
+        <activity android:name=".AttendanceScreen"/>
+        <activity android:name=".ModuleSelect"/>
+        <activity android:name=".StudentModules"/>
+
+
     </application>
 
 </manifest>

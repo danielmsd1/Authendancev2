@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
         //Forgot Password prompt is invisible at the beginning
-        forgotPasswordText.setVisibility(View.INVISIBLE);
+        forgotPasswordText.setVisibility(View.VISIBLE);
 
         signInBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = passwordField.getText().toString();
 
                 //Shows ProgressBar
-                progressBar.setVisibility(View.VISIBLE);
+                progressBar.setVisibility(View.INVISIBLE);
 
                 //If email and password fields are properly filled in
                 if (validateEmail() && validatePassword()) {
@@ -184,7 +184,6 @@ public class MainActivity extends AppCompatActivity {
                                                 if (task.isSuccessful()) {
                                                     DocumentSnapshot document = task.getResult();
                                                     if (document != null) {
-
                                                         String userType = document.getString("user_type");
                                                         String userName = document.getString("name");
 
@@ -229,7 +228,6 @@ public class MainActivity extends AppCompatActivity {
         forgotPasswordText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent intent = new Intent(MainActivity.this, PasswordReset.class);
                 startActivity(intent);
             }
